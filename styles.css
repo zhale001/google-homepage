@@ -1,0 +1,108 @@
+
+body {
+    background: #fff;
+    color: #222;
+}
+
+body, td, a, p, input, .h {
+    font-family: arial,sans-serif;
+    text-align: center;
+}
+
+p{
+	font-size:small;
+}
+
+a{text-decoration: none;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+ li {
+    float: right;
+}
+
+form input{ width: 569px;
+    height: 26px;
+    margin-top: 19px auto;
+    border: 1px solid; }
+
+#footer{
+  font-size: small;
+}
+
+li a {
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+span
+ {
+	float:left;
+}
+
+#outer{
+	width: 100%;
+	display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+.logo{
+	display: block;
+
+	margin: 50px auto;
+	
+}
+
+.words{
+	width:50%;
+	margin: 10px auto;
+}
+
+
+#l_button,#r_button{
+	border: 0;
+  background: #5786c1;
+  color: white;
+  padding: 4px 10px;
+  font-weight: bold;
+  font-size: small;
+  text-decoration: none;
+  display: inline-block; /* needed for anchors */
+  position: relative;
+    box-shadow: 1px 0px #3a587f, 0px 1px #4171ae,
+              2px 1px #3a587f, 1px 2px #4171ae,
+              3px 2px #3a587f, 2px 3px #4171ae,
+              4px 3px #3a587f, 3px 4px #4171ae,
+              5px 4px #3a587f, 4px 5px #4171ae,
+              6px 5px #3a587f, 5px 6px #4171ae;
+          }
+  
+ .hover,.focus {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 0px #3a587f, 0px 1px #4171ae,
+              2px 1px #3a587f, 1px 2px #4171ae,
+              3px 2px #3a587f, 2px 3px #4171ae,
+              4px 3px #3a587f, 3px 4px #4171ae;
+  }
+
+  .active {
+    transform: translate(4px, 4px);
+    box-shadow: 1px 0px #3a587f, 0px 1px #4171ae,
+              2px 1px #3a587f, 1px 2px #4171ae;
+  }
+}
